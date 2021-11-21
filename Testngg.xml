@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Test Suite" parallel="methods" thread-count = "2">
+<listeners>
+<listener class-name="com.Testngworking.Listeners"></listener>
+</listeners>
+<test name="Test cases">
+<!-- <parameter name="Name" value="Ruby"></parameter>
+<parameter name="Name1" value="Arthi"></parameter> -->
+<classes>
+<class name="com.Testngworking.Enabled_testng"></class >
+</classes>
+</test>
+</suite>
+
+
+
+<!-- <class name="com.Testngworking.Enabled_testng"></class >
+<class name="com.Testngworking.TestNG_working"></class > -->
